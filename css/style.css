@@ -103,17 +103,13 @@ img {
     width: 100%;
   }
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .title {
     height: auto;
     padding: 1em 0;
   }
   .title a {
     width: 6em;
-  }
-  .title a:nth-child(2) {
-    height: 6em;
-    padding-left: 0;
   }
   .title h1 {
     font-size: 1.5em;
