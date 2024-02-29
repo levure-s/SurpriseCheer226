@@ -83,6 +83,34 @@ const tweets = {
     img: "erika.jpg",
     url: "https://twitter.com/C45iv1nRVAH9Ox4/status/1761923430184824836",
   },
+  sora: {
+    img: "sora.jpg",
+    url: "https://twitter.com/Sora_Maruene/status/1762102340382015747",
+  },
+  ken: {
+    img: "ken.jpg",
+    url: "https://twitter.com/ken_Babys1112/status/1761739437946654779",
+  },
+  ken2: {
+    img: "ken2.jpg",
+    url: "https://twitter.com/ken_Babys1112/status/1761806910213472455",
+  },
+  yugen: {
+    img: "yugen.jpg",
+    url: "https://twitter.com/Yugen_Babys/status/1761752366062371104",
+  },
+  yugen2: {
+    img: "yugen2.jpg",
+    url: "https://twitter.com/Yugen_Babys/status/1761752367723405700",
+  },
+  yuu: {
+    img: "yuu.jpg",
+    url: "https://twitter.com/Yuu_kakki/status/1761751267276398855",
+  },
+  chocolaterusk: {
+    img: "chocolaterusk.jpg",
+    url: "https://twitter.com/chocolaterusk3/status/1761909837330518334",
+  },
   levu: {
     img: "levu.jpg",
     url: "https://twitter.com/8J6pxh2o0XB5lN9/status/1761737997287059863",
