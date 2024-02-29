@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="灯橙あかさんに元気になってもらいたいという素敵なツイートを集めました。"
+    />
+    <title>【非公式】Baby'sより愛をこめて</title>
+    <meta
+      property="og:url"
+      content="https://levure-s.github.io/SurpriseCheer226/"
+    />
+    <meta property="og:title" content="【非公式】灯橙あか生誕祭2022" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:description"
+      content="灯橙あかさんのお誕生日をお祝いする素敵なツイートを集めました。"
+    />
+    <meta
+      property="og:image"
+      content="https://levure-s.github.io/SurpriseCheer226/img/429570004_1850388268746912_6411570391185498828_n.jpg"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@8J6pxh2o0XB5lN9" />
+    <meta property="og:locale" content="ja_JP" />
+    <link rel="stylesheet" href="./css/doctor.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="title">
+      <div class="img-contaier">
+        <a
+          href="https://twitter.com/H2Eyecm6RvuZjgd/status/1763027174440002034"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="./img/429570004_1850388268746912_6411570391185498828_n.jpg"
+          />
+        </a>
+      </div>
+      <h1>Baby'sより愛をこめて</h1>
+      <h2>
+        <span class="brake1"> あかちゃん </span>
+        <span class="brake2">たまにはゆっくり</span>
+        休んでね
+      </h2>
+    </div>
+
+    <div class="msg">
+      <ul id="msg-list"></ul>
+    </div>
+
+    <script src="./info.js"></script>
+    <script>
+      var text = "";
+      for (key in tweets) {
+        let text1 =
+          '<li><a href="' +
+          tweets[key].url +
+          '" target="_blank" rel="noopener">';
+        let text2 = '<img src="./img/' + tweets[key].img + '">';
+        let text3 = "</a></li>";
+        text = text + text1 + text2 + text3;
+      }
+      $(window).load(function () {
+        $("#msg-list").html(text);
+      });
+    </script>
+  </body>
+</html>
